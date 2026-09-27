@@ -1,0 +1,14 @@
+# SPDX-FileCopyrightText: 2023-2026 Rashed Talukder
+# SPDX-License-Identifier: Apache-2.0
+
+menu "Unit Light Configuration"
+
+    config UNIT_LIGHT_ADC_SAMPLES
+        int "ADC samples averaged per reading"
+        range 1 64
+        default 16
+        help
+            Number of calibrated ADC readings averaged by unit_light_read().
+            More samples reduce ESP32 ADC noise at the cost of a longer read.
+
+endmenu

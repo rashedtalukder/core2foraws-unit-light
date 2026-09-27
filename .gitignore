@@ -52,10 +52,11 @@ Mkfile.old
 dkms.conf
 
 .vscode
+**/.vscode
 **/.DS_Store
-
 **/.pio
 **/build
+**/build-*
 sdkconfig
 sdkconfig.old
 sdkconfig.core2foraws

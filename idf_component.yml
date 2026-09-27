@@ -1,16 +1,10 @@
-## IDF Component Manager Manifest File
+# SPDX-FileCopyrightText: 2023-2026 Rashed Talukder
+# SPDX-License-Identifier: Apache-2.0
+
+version: "1.0.0"
+description: "Driver for the M5Stack Unit Light (U021) on the Core2 for AWS IoT Kit"
+url: "https://github.com/rashedtalukder/core2foraws-unit-light"
+license: "Apache-2.0"
 dependencies:
-  ## Required IDF version
   idf:
-    version: ">=4.1.0"
-  # # Put list of dependencies here
-  # # For components maintained by Espressif:
-  # component: "~1.0.0"
-  # # For 3rd party components:
-  # username/component: ">=1.0.0,<2.0.0"
-  # username2/component2:
-  #   version: "~1.0.0"
-  #   # For transient dependencies `public` flag can be set.
-  #   # `public` flag doesn't have an effect dependencies of the `main` component.
-  #   # All dependencies of `main` are public by default.
-  #   public: true
+    version: ">=5.2"
